@@ -9,7 +9,7 @@ void setup() {
 
 void loop() {
   for(int i=1; i<= 5; i++ ){
-    digitalWrite(ledA,  250);
+    digitalWrite(ledA,  HIGH);
     delay(1000);
     digitalWrite(ledA, LOW);
     delay(1000);
@@ -17,7 +17,7 @@ void loop() {
   }
   
   for(int i=1; i<=3; i++){
-    digitalWrite(ledB, 250);
+    digitalWrite(ledB, HIGH);
     delay(1000);
     digitalWrite(ledB, LOW);
     delay(1000);
